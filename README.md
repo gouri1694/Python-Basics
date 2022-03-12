@@ -162,39 +162,58 @@ word Howl&#39;s not escaped a problem?
 **PythonBasics_7**
 
 1. What is the name of the feature responsible for generating Regex objects?
+
 2. Why do raw strings often appear in Regex objects?
+
 3. What is the return value of the search() method?
+
 4. From a Match item, how do you get the actual strings that match the pattern?
+
 5. In the regex which created from the r&#39;(\d\d\d)-(\d\d\d-\d\d\d\d)&#39;, what does group zero cover?
 Group 2? Group 1?
+
 6. In standard expression syntax, parentheses and intervals have distinct meanings. How can you tell
 a regex that you want it to fit real parentheses and periods?
+
 7. The findall() method returns a string list or a list of string tuples. What causes it to return one of
 the two options?
+
 8. In standard expressions, what does the | character mean?
+
 9. In regular expressions, what does the character stand for?
+
 10.In regular expressions, what is the difference between the + and * characters?
+
 11. What is the difference between {4} and {4,5} in regular expression?
+
 12. What do you mean by the \d, \w, and \s shorthand character classes signify in regular
 expressions?
+
 13. What do means by \D, \W, and \S shorthand character classes signify in regular expressions?
+
 14. What is the difference between .*? and .*?
+
 15. What is the syntax for matching both numbers and lowercase letters with a character class?
+
 16. What is the procedure for making a normal expression in regax case insensitive?
+
 17. What does the . character normally match? What does it match if re.DOTALL is passed as 2nd
 argument in re.compile()?
+
 18. If numReg = re.compile(r&#39;\d+&#39;), what will numRegex.sub(&#39;X&#39;, &#39;11 drummers, 10 pipers, five rings, 4
 hen&#39;) return?
+
 19. What does passing re.VERBOSE as the 2nd argument to re.compile() allow to do?
+
 20. How would you write a regex that match a number with comma for every three digits? It must
 match the given following:
 &#39;42&#39;
 &#39;1,234&#39;
 &#39;6,368,745&#39;
-
 but not the following:
 &#39;12,34,567&#39; (which has only two digits between the commas)
 &#39;1234&#39; (which lacks commas)
+
 21. How would you write a regex that matches the full name of someone whose last name is
 Watanabe? You can assume that the first name that comes before it will always be one word that
 begins with a capital letter. The regex must match the following:
@@ -206,6 +225,7 @@ but not the following:
 &#39;Mr. Watanabe&#39; (where the preceding word has a nonletter character)
 &#39;Watanabe&#39; (which has no first name)
 &#39;Haruto watanabe&#39; (where Watanabe is not capitalized)
+
 22. How would you write a regex that matches a sentence where the first word is either Alice, Bob,
 or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or baseballs;
 and the sentence ends with a period? This regex should be case-insensitive. It must match the
@@ -367,22 +387,32 @@ Make all the other keys refer to empty dictionaries.
 1. Assign the value 7 to the variable guess_me. Then, write the conditional tests (if, else, and elif) to
 print the string &#39;too low&#39; if guess_me is less than 7, &#39;too high&#39; if greater than 7, and &#39;just right&#39; if equal
 to 7.
+
 2. Assign the value 7 to the variable guess_me and the value 1 to the variable start. Write a while
 loop that compares start with guess_me. Print too low if start is less than guess me. If start equals
 guess_me, print &#39;found it!&#39; and exit the loop. If start is greater than guess_me, print &#39;oops&#39; and exit
 the loop. Increment start at the end of the loop.
+
 3. Print the following values of the list [3, 2, 1, 0] using a for loop.
+
 4. Use a list comprehension to make a list of the even numbers in range(10)
+
 5. Use a dictionary comprehension to create the dictionary squares. Use range(10) to return the
 keys, and use the square of each key as its value.
+
 6. Construct the set odd from the odd numbers in the range using a set comprehension (10).
+
 7. Use a generator comprehension to return the string &#39;Got &#39; and a number for the numbers in
 range(10). Iterate through this by using a for loop.
+
 8. Define a function called good that returns the list [&#39;Harry&#39;, &#39;Ron&#39;, &#39;Hermione&#39;].
+
 9. Define a generator function called get_odds that returns the odd numbers from range(10). Use a
 for loop to find and print the third value returned.
+
 10. Define an exception called OopsException. Raise this exception to see what happens. Then write
 the code to catch this exception and print &#39;Caught an oops&#39;.
+
 11. Use zip() to make a dictionary called movies that pairs these lists: titles = [&#39;Creature of Habit&#39;,
 &#39;Crewel Fate&#39;] and plots = [&#39;A nun turns into a monster&#39;, &#39;A haunted yarn shop&#39;].
 
